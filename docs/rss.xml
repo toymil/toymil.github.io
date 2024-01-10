@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0">
+<channel>
+
+<title>toymil</title>
+<description></description>
+<link>https://toymil.github.io</link>
+
+<item>
+	<title>metadata test</title>
+	<description></description>
+	<link>https://toymil.github.io/blog/5ac8/metadata_test_publish</link>
+
+	<pubDate>2023-12-31</pubDate>
+	<guid isPermaLink="false">5ac8</guid>
+</item>
+
+<item>
+	<title>metadata test</title>
+	<description></description>
+	<link>https://toymil.github.io/blog/31be/metadata_test_publish-modify</link>
+
+	<pubDate>2023-12-31</pubDate>
+	<guid isPermaLink="false">31be</guid>
+</item>
+
+<item>
+	<title>metadata test</title>
+	<description></description>
+	<link>https://toymil.github.io/blog/3026/metadata_test_publish-modify-authors</link>
+
+	<pubDate>2023-12-31</pubDate>
+	<guid isPermaLink="false">3026</guid>
+</item>
+
+<item>
+	<title>metadata test</title>
+	<description>line one
+
+line two
+
+long line three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three three
+</description>
+	<link>https://toymil.github.io/blog/a362/metadata_test_publish-modify-authors-abstract</link>
+
+	<pubDate>2023-12-31</pubDate>
+	<guid isPermaLink="false">a362</guid>
+</item>
+
+</channel>
+</rss>

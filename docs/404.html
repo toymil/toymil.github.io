@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="/_app/immutable/entry/start.mdideBfS.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/entry.gbsJT5VV.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/scheduler.YAOc3RFa.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/paths.0bqLfP4n.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/control.pJ1mnnAb.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.9GrxRqcq.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/preload-helper.0HuHagjb.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.ox63BBL5.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<script>
+			const color_scheme_preference = localStorage.getItem("color_scheme");
+			let color_scheme_result;
+			switch (color_scheme_preference) {
+				case "light":
+				case "dark":
+					color_scheme_result = color_scheme_preference;
+					break;
+				default:
+					const system_color_scheme = window.matchMedia("(prefers-color-scheme: light)").matches
+						? "light"
+						: "dark";
+					color_scheme_result = system_color_scheme;
+					break;
+			}
+			document.documentElement.setAttribute("data-color-scheme", color_scheme_result);
+		</script>
+		<script>
+			document.documentElement.classList.add("scrollbar-customize", "scrollbar-width-default");
+			document.body.classList.add("scrollbar-customize", "scrollbar-width-default");
+		</script>
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1g2yjde = {
+						base: "",
+						env: null
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.mdideBfS.js"),
+						import("/_app/immutable/entry/app.9GrxRqcq.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

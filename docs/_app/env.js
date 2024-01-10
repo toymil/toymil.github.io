@@ -1,0 +1,1 @@
+export const env={"PUBLIC_SITE_NAME":"toymil","PUBLIC_SITE_URL":"https://toymil.github.io"}
